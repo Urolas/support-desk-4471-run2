@@ -22,16 +22,16 @@ marked known as one issue. Read by tenant and by what the reports say, it holds 
 Each now has a ticket of its own.
 
 <Callout kind="warn">
-#4471 is marked known with one fix queued. That fix covers one of its three problems.
+#4471 closed on 5 October, but one of its three problems has no fix yet: the one-day move.
 </Callout>
 
 ## Where they stand
 
 | problem | outcome | ticket |
 |---|---|---|
-| `parser` | open: the queued parser fix should cover it | [#1](https://github.com/Urolas/support-desk-4471-run2/issues/1), open |
-| `hint` | open: the parser fix does not touch it | [#2](https://github.com/Urolas/support-desk-4471-run2/issues/2), open |
-| `one-day` | open: a swap fix cannot move a date by one day | [#3](https://github.com/Urolas/support-desk-4471-run2/issues/3), open |
+| `parser` | fixed: `fix(dates): parse dd/mm for eu locales` | [#1](https://github.com/Urolas/support-desk-4471-run2/issues/1), closed |
+| `hint` | won't fix: the booking-v3 form is retired | [#2](https://github.com/Urolas/support-desk-4471-run2/issues/2), closed |
+| `one-day` | no fix: neither change moves a date by one day | [#3](https://github.com/Urolas/support-desk-4471-run2/issues/3), open |
 
 ## The three problems
 
